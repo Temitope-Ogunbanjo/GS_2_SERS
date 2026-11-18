@@ -1,7 +1,8 @@
 import os
 import pandas as pd
 
-PASTA_CSV = "csv"
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
+PASTA_CSV = os.path.join(DIRETORIO_ATUAL, "data", "csv")
 
 def Televisores(Limite : 5):
 
@@ -534,7 +535,7 @@ def Lampada_Vapor(Limite: int = 5):
     }
 def Lampada_Fluorescente(Limite: int = 5):
 
-    Path = os.path.join(PASTA_CSV, "Lampada_Florescente.csv") 
+    Path = os.path.join(PASTA_CSV, "Lampada_Fluorescente.csv") 
     if not os.path.exists(Path):
         return {"erro": f"Arquivo de {Path} não encontrado"}
 
