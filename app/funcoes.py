@@ -1,8 +1,9 @@
 import os
 import pandas as pd
 
-DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
-PASTA_CSV = os.path.join(DIRETORIO_ATUAL, "data", "csv")
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__)) # Pasta 'app'
+RAIZ_PROJETO = os.path.dirname(DIRETORIO_ATUAL)             # Raiz do projeto (src)
+PASTA_CSV = os.path.join(RAIZ_PROJETO, "csv")
 
 def Televisores(Limite : 5):
 
