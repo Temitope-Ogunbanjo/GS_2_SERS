@@ -84,3 +84,5 @@ API backend desenvolvida em **FastAPI** para fornecer orientações de eficiênc
 - **Gabriel Oliveira Gusmão Florêncio dos Santos** — RM 573747
 - **Gustavo de Souza Abreu** — RM 574080
 - **Temitope Kuku da Silva Ogunbanjo** — RM 573772
+
+***[Clique aqui para acessar o vídeo explicativo e demonstrativo no youtube](https://youtu.be/I4uxKGNxGjc?si=hhS7Dvmrrg4sGbem)***
